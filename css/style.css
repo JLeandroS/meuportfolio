@@ -31,19 +31,19 @@ body{
     transition: all 1s ease-in-out;
 }
 #btn_menu{
+    padding: 2vh;
     color: white; 
     font-size: 5vh;
     display: none;
 }
 #btn_menu:hover{
-    padding: 2vh;
     background: cadetblue;
     border-radius: 50%; 
     cursor:pointer;
 }
 .menu_modal{
-        position: absolute;
-    top: 5vh;
+     position: absolute;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     right: 0;
