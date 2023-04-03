@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/portfolio_1.ico">
+    <title>Josué Leandro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<style>
+    .background_sobre{
+        background: url(img/cert.jpg);
+    }
+</style>
+<body>
+    <div class="top">
+        <div class="port">
+            <strong style="color:white;">Port</strong><strong style="color:rgb(122 122 122);">fólio</strong>
+        </div>
+        <span id="btn_menu" class="material-symbols-outlined">menu</span>
+        <span id="btn_menu_close" class="material-symbols-outlined" style="display:none;">close</span>
+        <div class="menu">
+            <a href="#inicio"><button class="btn_top"> Inicio</button></a>
+            <a href="#habilidades"><button class="btn_top"> Habilidades</button></a>
+            <a href="#sobre"><button class="btn_top"> Sobre</button></a>
+            <a href="#Contrate-me"><button class="btn_top"> Contate-me</button></a>
+        </div>
+        </div>
+            <div class="menu_modal" id="menu_modal" style="display:none;">
+            <a href="#inicio"><button class="btn_top"> Inicio</button></a>
+            <a href="#habilidades"><button class="btn_top"> Habilidades</button></a>
+            <a href="#sobre"><button class="btn_top"> Sobre</button></a>
+            <a href="#Contrate-me"><button class="btn_top"> Contate-me</button></a>
+        </div>
+    <div class="content">
+        <div class="info" id="inicio">
+            <div class="c_card">
+                <div class="contente_info">
+                    <div class="dados">
+                        <strong style="font-size: 3vh;">Me chamo</strong>
+                        <strong style="font-size: 3.5vh;color: rgb(141 153 175);">Josue Leandro</strong>
+                        <div class="info_c">
+                            <strong style="font-size: 3vh;">Eu sou</strong><strong style="font-size: 3vh;border-bottom: 3px solid aqua;padding-bottom: 11px;">desenvolvedor</strong>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/user-m.png" alt="Eu" class="img_c">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info" id="habilidades" style="height: auto;">
+            <strong style="color: aliceblue;font-size: 3vh;">Habilidades</strong>
+            <strong class="tema">C#</strong>
+            <div  style="display: contents;">
+                <span class="material-symbols-outlined">code</span>
+                <div class="cd">
+                    <strong class="if">Experiência em desenvolvimento de sistema em C# onde criei meu primeiro projeto de gestão de suporte para empresa Logística Informática.</strong>
+                    <strong class="if">Desenvolimento de sistema de backup incremental agendado para o SQL.</strong>
+                </div>
+            </div>
+            <strong class="tema">WEB</strong>
+            <div  style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <span class="material-symbols-outlined">html</span>
+                <span class="material-symbols-outlined">css</span>
+                <span class="material-symbols-outlined">javascript</span>
+                <span class="material-symbols-outlined">php</span>
+                <div class="cd">
+                    <strong class="if" style="width: -we;">Experiência em desenvolvimento de sistema WEB, com a versão do sistema de gerencia de suporte para empresa Logistica Informática e sistema de gestão de Frota</strong>
+                </div>
+            </div>
+            <strong class="tema">Bando de dados</strong>
+            <div style="display: contents;">
+                <span class="material-symbols-outlined">database</span>
+                <div class="cd">
+                    <strong class="if">MySQL - Desenvolvimento de sistema de gestão de suporte com ferramentas como: dashboard, chat, cadastros, consulta, ediçao e exclusao.</strong>
+                    <strong class="if">SQL (Microsoft) - Experiência com suporte do Sistema MetaPosto.Net.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="info" id="sobre">
+            <strong style="color: aliceblue;font-size: 3vh;">Sobre Mim</strong>
+            <div class="background"></div>
+            <div class="card_in">
+                <div>
+                    <span id="icon" class="material-symbols-outlined">workspace_premium</span>
+                </div>
+                <strong>- Sou graduado em Análise e Desenvolvimento de Sistemas.</strong>
+                <strong>- Trabalho a mais de 6 anos como analista na empresa Logística Informática.</strong>
+                <strong>- Desenvolvi sofwares para gestao de suporte em C# (Windows) e uma versao WEB.</strong>
+                <strong>- Tambem Desenvolvi software de backup incremental de banco de dados SQL em C#</strong>
+                <strong>- Desenvolimento em andamento de um sistema de gestão de frotas</strong>
+                <strong>- Experiência em trabalho remoto</strong>
+            </div>
+        </div>
+        <div class="info" id="sobre">
+            <div class="background_sobre"></div>
+            <div class="bc">
+                <div class="card_in">
+                    <div>
+                        <span id="icon" class="material-symbols-outlined">workspace_premium</span>
+                    </div>
+                    <strong>- Certificado de bom desempenho na faculdade FAEL.</strong>
+                </div>
+            </div>
+        </div>
+        <div id="Contrate-me">
+            <strong style="display: flex;color: aliceblue;font-size: 3vh;width: -webkit-fill-available;justify-content: center;">Contate-me</strong>
+            <div class="ccc">
+                <strong  style="color: #686868;width: -webkit-fill-available;">Telefone: </strong>
+                <span class="material-symbols-outlined">phone_iphone</span>
+                <strong style="margin-left: 1vh;color: #ffffff;">+55 (91) 998399-0566</strong>
+            </div>
+            <div class="ccc">
+                <strong style="color: #686868;width: -webkit-fill-available;">E-mail: </strong>
+                <span class="material-symbols-outlined">forward_to_inbox</span>
+                <strong style="margin-left: 1vh;color: #ffffff;">josueleandro18.jl@gmail.com</strong>
+            </div>
+            s<div class="ccc">
+                <strong  style="color: #686868;width: -webkit-fill-available;">Localização: </strong>
+                <span class="material-symbols-outlined">location_on</span>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.457237809776!2d-47.960240850119725!3d-1.289975284972508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a5af3f73727753%3A0xfbb120300e172d46!2sCastanhal%2C%20PA!5e0!3m2!1spt-BR!2sbr!4v1680487920192!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="java/javascript.js"></script>
+</body>
+</html>
