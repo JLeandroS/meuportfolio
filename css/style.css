@@ -45,7 +45,6 @@ body{
     padding: 1vh;
     color: white; 
     font-size: 5vh;
-    display: none;
 }
 #btn_menu_close:hover{
     background: cadetblue;
