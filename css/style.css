@@ -33,6 +33,7 @@ body{
 #btn_menu{
     color: white; 
     font-size: 5vh;
+    display:none;
 }
 .btn_menu:hover{
     padding: 2vh;
