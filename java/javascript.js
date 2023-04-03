@@ -8,7 +8,7 @@ $('#btn_menu').click( function(){
     menu_modal.style.display = "";
 })
 $('#btn_menu_close').click( function(){
-    btn_menu.style.display = "none";
-    btn_menu_close.style.display = "";
+    btn_menu.style.display = "";
+    btn_menu_close.style.display = "none";
     menu_modal.style.display = "none";
 })
