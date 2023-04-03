@@ -17,26 +17,29 @@
     .background_sobre{
         background: url(img/cert.jpg);
     }
+    body{
+        scroll-behavior: smooth;
+    }
 </style>
 <body>
     <div class="top">
+        <span id="btn_menu" class="material-symbols-outlined">menu</span>
+        <span id="btn_menu_close" class="material-symbols-outlined" style="display:none;">close</span>
         <div class="port">
             <strong style="color:white;">Port</strong><strong style="color:rgb(122 122 122);">fólio</strong>
         </div>
-        <span id="btn_menu" class="material-symbols-outlined">menu</span>
-        <span id="btn_menu_close" class="material-symbols-outlined" style="display:none;">close</span>
+        <div class="menu_modal" id="menu_modal" style="transform: translateX(100%);">
+            <a href="#inicio"><button class="btn_top"> Inicio</button></a>
+            <a href="#habilidades"><button class="btn_top"> Habilidades</button></a>
+            <a href="#sobre"><button class="btn_top"> Sobre</button></a>
+            <a href="#Contrate-me"><button class="btn_top"> Contate-me</button></a>
+        </div>
         <div class="menu">
             <a href="#inicio"><button class="btn_top"> Inicio</button></a>
             <a href="#habilidades"><button class="btn_top"> Habilidades</button></a>
             <a href="#sobre"><button class="btn_top"> Sobre</button></a>
             <a href="#Contrate-me"><button class="btn_top"> Contate-me</button></a>
         </div>
-        </div>
-            <div class="menu_modal" id="menu_modal" style="display:none;">
-            <a href="#inicio"><button class="btn_top"> Inicio</button></a>
-            <a href="#habilidades"><button class="btn_top"> Habilidades</button></a>
-            <a href="#sobre"><button class="btn_top"> Sobre</button></a>
-            <a href="#Contrate-me"><button class="btn_top"> Contate-me</button></a>
         </div>
     <div class="content">
         <div class="info" id="inicio">
