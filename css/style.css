@@ -31,7 +31,7 @@ body{
     transition: all 1s ease-in-out;
 }
 #btn_menu{
-    padding: 2vh;
+    padding: 1vh;
     color: white; 
     font-size: 5vh;
     display: none;
