@@ -35,7 +35,7 @@ body{
     font-size: 5vh;
     display: none;
 }
-.btn_menu:hover{
+#btn_menu:hover{
     padding: 2vh;
     background: cadetblue;
     border-radius: 50%; 
