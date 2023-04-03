@@ -34,6 +34,12 @@ body{
     color: white; 
     font-size: 5vh;
 }
+.btn_menu:hover{
+    padding: 2vh;
+    background: cadetblue;
+    border-radius: 50%; 
+    cursor:pointer;
+}
 .menu_modal{
         position: absolute;
     top: 5vh;
@@ -264,6 +270,9 @@ body{
     }
     .menu{
         display:none;
+    }
+    #btn_menu{
+      display:flex;
     }
 
 }
