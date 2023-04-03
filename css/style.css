@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
+    width: -webkit-fill-available;
 }
 
 .top{
@@ -10,7 +10,10 @@ body{
     display: flex;
     width: -webkit-fill-available;
     align-items: center;
-    justify-content: space-around;
+    height: auto;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .port{
     font-size: xxx-large;
@@ -35,6 +38,7 @@ body{
     color: white; 
     font-size: 5vh;
     display: none;
+    margin: 1vh;
 }
 #btn_menu:hover{
     background: cadetblue;
@@ -45,6 +49,7 @@ body{
     padding: 1vh;
     color: white; 
     font-size: 5vh;
+    margin: 1vh;
 }
 #btn_menu_close:hover{
     background: cadetblue;
@@ -52,12 +57,11 @@ body{
     cursor:pointer;
 }
 .menu_modal{
-     position: absolute;
-    top: 10vh;
     display: flex;
-    flex-direction: column;
-    right: 0;
     transition: all 0.5s ease-in-out;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    margin-left: 1vh;
 }
 .material-symbols-outlined {
   font-variation-settings:
