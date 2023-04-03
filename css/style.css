@@ -30,7 +30,13 @@ body{
     font-weight: bold;
     transition: all 1s ease-in-out;
 }
-
+.menu_modal{
+        position: absolute;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -251,6 +257,9 @@ body{
         flex-wrap: wrap;
         width: -webkit-fill-available;
         flex-direction: initial;
+    }
+    .menu{
+        display:none;
     }
 
 }
