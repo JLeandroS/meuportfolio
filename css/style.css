@@ -273,7 +273,7 @@ body{
         display:none;
     }
     #btn_menu{
-      display:flex;
+      display:block;
     }
 
 }
