@@ -204,7 +204,7 @@ body{
     border-radius: 20px;
     transition: all 1s ease-in-out;
     color: rgb(128, 128, 128);
-    background-color: rgb(58, 58, 58);
+    background-color:rgb(58 58 58 / 35%);
     box-shadow: 9px 9px 20px 1px #000000c4;
     align-items: center;
     margin: 2vh;
