@@ -30,6 +30,10 @@ body{
     font-weight: bold;
     transition: all 1s ease-in-out;
 }
+#btn_menu{
+    color: white; 
+    font-size: 5vh;
+}
 .menu_modal{
         position: absolute;
     top: 5vh;
