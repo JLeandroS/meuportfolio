@@ -47,6 +47,7 @@ body{
     display: flex;
     flex-direction: column;
     right: 0;
+    transition: all 0.5s ease-in-out;
 }
 .material-symbols-outlined {
   font-variation-settings:
