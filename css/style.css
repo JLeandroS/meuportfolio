@@ -267,6 +267,7 @@ body{
     }
     .c_card{
         margin: 1vh;
+        margin-top: 28vh;
     }
     .port{
         font-size: 4vh;
