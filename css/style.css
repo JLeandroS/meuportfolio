@@ -12,8 +12,8 @@ body{
     align-items: center;
     height: auto;
     overflow: hidden;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .port{
     font-size: xxx-large;
