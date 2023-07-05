@@ -16,6 +16,7 @@ body{
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: space-around;
+    z-index: 2;
 }
 .port{
     font-size: xxx-large;
@@ -25,15 +26,23 @@ body{
     margin: 1vh;
     width: 17vh;
 }
+#back{
+    height: 50%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
 .btn_top{
     border: none;
     padding: 20px;
     background: transparent;
+    font-size: 0.8vw;
     color: azure;
     border-radius: 10px;
     font-weight: bold;
     transition: all 1s ease-in-out;
-    width: 8vw;
+    width: 12vw;
     display: flex;
     align-items: center;
 }
@@ -96,6 +105,9 @@ body{
     flex-direction: column;
     margin: 25px;
 }
+#inicio{
+    backdrop-filter: blur(8px);
+}
 .info{
     height: 100vh;
     display:flex;
@@ -110,6 +122,7 @@ body{
 .c_card{
     transition: all 0.7s ease-in-out;
     animation: move 2s;
+    backdrop-filter: blur(8px);
 }
 .card_in{
     display: flex;
@@ -294,6 +307,11 @@ body{
     }
     #btn_menu{
       display:block;
+    }
+    .btn_top {
+        width: 48vw;
+        margin-bottom: 1vh;
+        font-size: 2vw;
     }
 
 }
