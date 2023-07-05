@@ -5,7 +5,7 @@ body{
     width: -webkit-fill-available;
 }
 .menu{
-    displau:flex;
+    display:flex;
 .top{
     position: absolute;
     display: flex;
