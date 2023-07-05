@@ -4,7 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
     width: -webkit-fill-available;
 }
-
+.menu{
+    displau:flex;
 .top{
     position: absolute;
     display: flex;
@@ -26,12 +27,14 @@ body{
 .btn_top{
     border: none;
     padding: 20px;
-    font-size: medium;
     background: transparent;
     color: azure;
     border-radius: 10px;
     font-weight: bold;
     transition: all 1s ease-in-out;
+    width: 8vw;
+    display: flex;
+    align-items: center;
 }
 #btn_menu{
     padding: 1vh;
