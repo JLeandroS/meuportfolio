@@ -6,6 +6,7 @@ body{
 }
 .menu{
     display:flex;
+}
 .top{
     position: absolute;
     display: flex;
