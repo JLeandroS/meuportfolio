@@ -193,11 +193,12 @@ a{
     transform: translateY(-10px);
 }
 .tema {
-    font-size: 3vh;
+    font-size: xx-large;
     color: #ffffff;
     width: -webkit-fill-available;
     border-bottom: 3px solid #201f1d;
-    margin: 3vh;
+    margin: 20px;
+    margin-top: 30px;
 }
 .hb{
     font-size: 11vh;
