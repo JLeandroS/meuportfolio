@@ -283,7 +283,7 @@ a{
     background-color: rgb(7 7 7 / 35%);
     box-shadow: 0px 0px 4px 0px #000000c4;
     align-items: center;
-    margin: 30px;
+    margin: 4px;
     flex-direction: column;
     position: relative;
     width: -webkit-fill-available;
