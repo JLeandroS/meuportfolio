@@ -258,12 +258,13 @@ a{
     border-radius: 20px;
     transition: all 1s ease-in-out;
     color: rgb(128, 128, 128);
-    background-color:rgb(58 58 58 / 35%);
-    box-shadow: 9px 9px 20px 1px #000000c4;
+    background-color: rgb(7 7 7 / 35%);
+    box-shadow: 0px 0px 4px 2px #000000c4;
     align-items: center;
     margin: 2vh;
     flex-direction: column;
     position: relative;
+    width: -webkit-fill-available;
 }
 .map{
     border: 0;
