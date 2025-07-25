@@ -191,6 +191,7 @@ a{
 }
 #habilidades .material-symbols-outlined:hover{
     transform: translateY(-10px);
+    background: #594d35;
 }
 .tema {
     font-size: xx-large;
