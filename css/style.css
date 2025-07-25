@@ -239,16 +239,18 @@ a{
     flex-wrap: wrap;
 }
 #Contrate-me .material-symbols-outlined{
-    font-size: 4vh;
-    padding: 2vh;
+    font-size: 27px;
+    padding: 14px;
     border-radius: 50%;
-    background: #201f1d;
+    background: #9f8a5f;
     margin: 1vh;
     box-shadow: 9px 9px 20px 1px #000000c4;
     animation: move 1s;
     color: aliceblue;
     transition: all 0.5s ease-in-out;
     width: fit-content;
+    position: absolute;
+    top: -31px;
 }
 .ccc{
     display: flex;
@@ -261,6 +263,7 @@ a{
     align-items: center;
     margin: 2vh;
     flex-direction: column;
+    position: relative;
 }
 .map{
     border: 0;
