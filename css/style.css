@@ -194,8 +194,11 @@ a{
     background: #594d35;
 }
 .my-material-s{
-    font-size: 57px;
-    padding: 24px;
+    font-size: 21px;
+    padding: 38px;
+    width: 29px;
+    height: 29px;
+    display: flex;
     border-radius: 50%;
     background: #bf8a1f;
     margin: 1vh;
@@ -203,6 +206,9 @@ a{
     animation: move 1s;
     color: aliceblue;
     transition: all 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 #habilidades my-material-s:hover{
     transform: translateY(-10px);
