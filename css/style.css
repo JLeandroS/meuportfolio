@@ -131,7 +131,7 @@ a{
     border-radius: 20px;
     transition: all 1s ease-in-out;
     position: absolute;
-    color: rgb(128, 128, 128);
+    color: #ffffff;
     background-color: rgb(58, 58, 58);
     box-shadow: 9px 9px 20px 1px #000000c4;
 }
