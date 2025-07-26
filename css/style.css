@@ -243,6 +243,7 @@ a{
 .if{
     color: #cdcdcd;
     justify-content: center;
+    padding: 20px;
 }
 .cd{
     display: flex;
