@@ -219,11 +219,13 @@ a{
 }
 .tema {
     font-size: xx-large;
-    color: #ffffff;
+    color: #90a2ff;
     width: -webkit-fill-available;
     border-bottom: 3px solid #201f1d;
     margin: 20px;
     margin-top: 30px;
+    font-family: "Bitcount Prop Single", system-ui;
+    font-weight: 200;
 }
 .hb{
     font-size: 11vh;
