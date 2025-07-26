@@ -159,7 +159,7 @@ a{
     align-items: center;
     box-shadow: 9px 9px 20px 1px #000000c4;
     border-radius: 20px;
-    background: linear-gradient(90deg, #161616, #2f2828, #6ab538);
+    background:linear-gradient(142deg, #161616, #1c1c1c, #283520);
 }
 .c_card:hover{
     cursor: pointer;
