@@ -191,7 +191,8 @@ a{
 }
 #habilidades .material-symbols-outlined:hover{
     transform: translateY(-10px);
-    background: #594d35;
+    background: azure;
+    color: #bf8a1f;
 }
 .my-material-s{
     font-size: 21px;
@@ -210,9 +211,10 @@ a{
     justify-content: center;
     font-weight: bold;
 }
-#habilidades my-material-s:hover{
+.my-material-s:hover{
     transform: translateY(-10px);
-    background: #594d35;
+    background: azure;
+    color: #bf8a1f;
 }
 .tema {
     font-size: xx-large;
