@@ -99,6 +99,8 @@ a{
 #icon{
     font-size: 9vh;
     width: -webkit-fill-available;
+    color: gold;
+    text-shadow: 0 0 7px #ffffff;
 }
 .dados{
     display: flex;
