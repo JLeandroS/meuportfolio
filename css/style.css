@@ -30,10 +30,12 @@ body{
     z-index: 2;
 }
 .content_img_empresa{
-    display:flex;
-    overflow:auto;
+    display: flex;
+    overflow: auto;
     margin: 10px;
-    flex-direction:column;
+    flex-direction: column;
+    align-items: center;
+    color: cadetblue;
 }
 .content_empresas{
     display:flex;
