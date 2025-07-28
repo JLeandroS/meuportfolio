@@ -7,6 +7,9 @@ var btn_fisio = document.getElementById('data_fisio');
 var btn_optimize = document.getElementById('data_optimize');
 var btn_logistica = document.getElementById('data_logistica');
 
+$('#menu_modal').click( function(){
+    menu_modal.style.display = "none";
+})
 $('#btn_menu').click( function(){
     btn_menu.style.display = "none";
     btn_menu_close.style.display = "block";
