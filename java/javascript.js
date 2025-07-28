@@ -8,6 +8,8 @@ var btn_optimize = document.getElementById('data_optimize');
 var btn_logistica = document.getElementById('data_logistica');
 
 $('#menu_modal').click( function(){
+    btn_menu.style.display = "";
+    btn_menu_close.style.display = "none";
     menu_modal.style.transform = "translateX(100%)";
 })
 $('#btn_menu').click( function(){
