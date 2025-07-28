@@ -7,6 +7,17 @@ body{
 .menu{
     display:flex;
 }
+.imgTop {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 5px;
+}
 .top{
     position: absolute;
     display: flex;
