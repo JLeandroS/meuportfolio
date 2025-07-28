@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    width: -webkit-fill-available;
+    width:100%;
 }
 .menu{
     display:flex;
@@ -21,7 +21,7 @@ body{
 .top{
     position: absolute;
     display: flex;
-    width: -webkit-fill-available;
+    width:100%;
     align-items: center;
     height: auto;
     overflow: hidden;
@@ -48,7 +48,7 @@ body{
     overflow: auto;
     align-items: center;
     height: 217px;
-    max-width: -webkit-fill-available;
+    max-width: 100%;
     margin-top: 25px;
 }
 .port{
@@ -105,7 +105,7 @@ a{
 .menu_modal{
     display: flex;
     transition: all 0.5s ease-in-out;
-    width: -webkit-fill-available;
+    width: 100%;
     flex-direction: column;
     backdrop-filter: blur(24px);
     border-radius: 6px;
@@ -132,7 +132,7 @@ a{
 }
 #icon{
     font-size: 9vh;
-    width: -webkit-fill-available;
+    width: 100%;
     color: #855b5b;
     text-align: end;
 }
@@ -180,11 +180,11 @@ a{
 .background{
     filter: blur(6px);
     height: 100vh;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 .background_sobre{
     height: 69vh;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 .contente_info{
     height: auto;
@@ -209,7 +209,7 @@ a{
 .bc{
     position: absolute;
     height: 70vh;
-    width: -webkit-fill-available;
+    width: 100%;
     display: flex;
     background: linear-gradient(90deg, black, #000000d1, black);
     align-items: center;
@@ -256,7 +256,7 @@ a{
 .tema {
     font-size: xx-large;
     color: #90a2ff;
-    width: -webkit-fill-available;
+    width: 100%;
     border-bottom: 3px solid #201f1d;
     margin: 20px;
     margin-top: 30px;
@@ -281,7 +281,7 @@ a{
 }
 .cd{
     display: flex;
-    width: -webkit-fill-available;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -328,7 +328,7 @@ a{
     margin: 4px;
     flex-direction: column;
     position: relative;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 .map{
     border: 0;
@@ -375,11 +375,11 @@ a{
         width: 17vh;
     }
     .map{
-        width: -webkit-fill-available;
+        width: 100%;
     }
     .ccc{
         flex-wrap: wrap;
-        width: -webkit-fill-available;
+        width: 100%;
         flex-direction: initial;
     }
     .menu{
