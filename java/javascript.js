@@ -2,10 +2,10 @@ var btn_menu = document.getElementById('btn_menu');
 var btn_menu_close = document.getElementById('btn_menu_close');
 var menu_modal = document.getElementById('menu_modal');
 
-var btn_gup = document.getElementById('data-gup');
-var btn_fisio = document.getElementById('data-fisio');
-var btn_optimize = document.getElementById('data-optimize');
-var btn_logistica = document.getElementById('data-logistica');
+var btn_gup = document.getElementById('data_gup');
+var btn_fisio = document.getElementById('data_fisio');
+var btn_optimize = document.getElementById('data_optimize');
+var btn_logistica = document.getElementById('data_logistica');
 
 $('#btn_menu').click( function(){
     btn_menu.style.display = "none";
