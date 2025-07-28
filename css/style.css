@@ -8,9 +8,9 @@ body{
     display:flex;
 }
 .imgTop {
-    width: 83px;
-    min-width: 83px;
-    height: 83px;
+    width: 101px;
+    min-width: 101px;
+    height: 101px;
     display: flex;
     align-items: center;
     overflow: hidden;
