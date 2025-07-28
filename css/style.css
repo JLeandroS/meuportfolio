@@ -193,6 +193,8 @@ a{
     box-shadow: 9px 9px 20px 1px #000000c4;
     border-radius: 20px;
     background:linear-gradient(142deg, #161616, #1c1c1c, #283520);
+    transition: all 0.7s ease-in-out;
+    animation: move 2s;
 }
 .c_card:hover{
     cursor: pointer;
