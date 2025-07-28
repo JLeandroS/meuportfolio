@@ -100,8 +100,8 @@ a{
 #icon{
     font-size: 9vh;
     width: -webkit-fill-available;
-    color: #ff0000;
-    text-shadow: 0 0 7px #ff0000;
+    color: #855b5b;
+    text-align: end;
 }
 .dados{
     display: flex;
