@@ -35,7 +35,6 @@ body{
 }
 .content_empresas{
     display:flex;
-    flex-direction:column;
 }
 .port{
     font-size: xx-large;
