@@ -48,6 +48,7 @@ body{
     align-items: center;
     height: 217px;
     max-width: -webkit-fill-available;
+    margin-top: 25px;
 }
 .port{
     font-size: xx-large;
