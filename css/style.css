@@ -37,7 +37,7 @@ body{
     color: cadetblue;
     position: relative;
 }
-.content_img_empresa{:hover{
+.content_img_empresa:hover{
     color: chartreuse;
     scale: 1.1;
 }
