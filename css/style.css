@@ -8,9 +8,9 @@ body{
     display:flex;
 }
 .imgTop {
-    width: 70px;
-    min-width: 70px;
-    height: 70px;
+    width: 83px;
+    min-width: 83px;
+    height: 83px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -32,6 +32,7 @@ body{
 .content_img_empresa{
     display:flex;
     overflow:auto;
+    margin: 10px;
 }
 .content_empresas{
     display:flex;
