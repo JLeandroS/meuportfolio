@@ -33,6 +33,7 @@ body{
     display:flex;
     overflow:auto;
     margin: 10px;
+    flex-direction:column;
 }
 .content_empresas{
     display:flex;
