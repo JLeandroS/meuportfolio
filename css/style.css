@@ -35,12 +35,14 @@ body{
     flex-direction: column;
     align-items: center;
     color: cadetblue;
+    position: relative;
 }
 .content_empresas{
     display: flex;
     overflow: auto;
     align-items: center;
-    height: 194px;
+    height: 217px;
+    max-width: -webkit-fill-available;
 }
 .port{
     font-size: xx-large;
