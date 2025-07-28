@@ -40,6 +40,7 @@ body{
 .content_img_empresa:hover{
     color: chartreuse;
     scale: 1.1;
+    cursor:pointer;
 }
 
 .content_empresas{
