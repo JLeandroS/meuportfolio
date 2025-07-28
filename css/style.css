@@ -29,6 +29,14 @@ body{
     justify-content: space-around;
     z-index: 2;
 }
+.content_img_empresa{
+    display:flex;
+    overflow:auto;
+}
+.content_empresas{
+    diplay:flex;
+    flex-direction:column;
+}
 .port{
     font-size: xx-large;
     border-bottom: 3px solid rgb(255, 255, 255);
