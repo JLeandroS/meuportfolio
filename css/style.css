@@ -31,14 +31,16 @@ body{
 }
 .content_img_empresa{
     display: flex;
-    overflow: auto;
     margin: 10px;
     flex-direction: column;
     align-items: center;
     color: cadetblue;
 }
 .content_empresas{
-    display:flex;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    height: 194px;
 }
 .port{
     font-size: xx-large;
