@@ -2,10 +2,10 @@ var btn_menu = document.getElementById('btn_menu');
 var btn_menu_close = document.getElementById('btn_menu_close');
 var menu_modal = document.getElementById('menu_modal');
 
-var btn-gup = document.getElementById('btn-gup');
-var btn-fisio = document.getElementById('btn-fisio');
-var btn-optimize = document.getElementById('btn-optimize');
-var btn-logistica = document.getElementById('btn-logistica');
+var btn_gup = document.getElementById('btn-gup');
+var btn_fisio = document.getElementById('btn-fisio');
+var btn_optimize = document.getElementById('btn-optimize');
+var btn_logistica = document.getElementById('btn-logistica');
 
 $('#btn_menu').click( function(){
     btn_menu.style.display = "none";
@@ -20,25 +20,25 @@ $('#btn_menu_close').click( function(){
 
 $('#btn-gup').click( function(){
     hide_data();
-    btn-gup.style.display = '';
+    btn_gup.style.display = '';
 })
 
 $('#btn-fisio').click( function(){
     hide_data();
-    btn-fisio.style.display = '';
+    btn_fisio.style.display = '';
 })
 $('#btn-optimize').click( function(){
     hide_data();
-    btn-optimize.style.display = '';
+    btn_optimize.style.display = '';
 })
 $('#btn-logistica').click( function(){
     hide_data();
-    btn-logistica.style.display = '';
+    btn_logistica.style.display = '';
 })
 
 function hide_data(){
-    btn-gup.style.display = 'none';
-    btn-logistica.style.display = 'none';
-    btn-fisio.style.display = 'none';
-    btn-optimize.style.display = 'none';
+    btn_gup.style.display = 'none';
+    btn_logistica.style.display = 'none';
+    btn_fisio.style.display = 'none';
+    btn_optimize.style.display = 'none';
 }
