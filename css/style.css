@@ -34,7 +34,7 @@ body{
     overflow:auto;
 }
 .content_empresas{
-    diplay:flex;
+    display:flex;
     flex-direction:column;
 }
 .port{
