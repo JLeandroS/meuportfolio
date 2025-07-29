@@ -222,7 +222,6 @@ a{
     border-radius: 50%;
     background: #bf8a1f;
     margin: 1vh;
-    box-shadow: 0px 0px 7px 3px #bf8a1fcc;
     animation: move 1s;
     color: aliceblue;
     transition: all 0.5s ease-in-out;
@@ -231,6 +230,7 @@ a{
     transform: translateY(-10px);
     background: azure;
     color: #bf8a1f;
+    box-shadow:0px 0px 7px 3px #bf8a1fcc;
 }
 .my-material-s{
     font-size: 21px;
@@ -241,7 +241,6 @@ a{
     border-radius: 50%;
     background: #bf8a1f;
     margin: 1vh;
-    box-shadow: 0px 0px 7px 3px #bf8a1fcc;
     animation: move 1s;
     color: aliceblue;
     transition: all 0.5s ease-in-out;
@@ -253,6 +252,7 @@ a{
     transform: translateY(-10px);
     background: azure;
     color: #bf8a1f;
+    box-shadow: 0px 0px 7px 3px #bf8a1fcc;
 }
 .tema {
     font-size: xx-large;
