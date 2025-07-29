@@ -202,7 +202,7 @@ a{
     border-radius: 20px;
     background:linear-gradient(142deg, #161616, #1c1c1c, #283520);
     transition: all 0.7s ease-in-out;
-    animation: move 2s;
+    animation: move_text 2s;
 }
 .c_card:hover{
     cursor: pointer;
