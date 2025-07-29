@@ -68,7 +68,8 @@ a{
 }
 .btn_top{
     border: none;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     background: transparent;
     font-size: medium;
     color: #747475;
