@@ -143,6 +143,7 @@ a{
 }
 #inicio{
     backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
 }
 .info{
     height: 100vh;
