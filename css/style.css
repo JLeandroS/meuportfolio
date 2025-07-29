@@ -151,7 +151,7 @@ a{
     align-items: center;
     flex-direction: column;
     scroll-behavior: smooth;
-    padding: 45px;
+    padding: 10px;
 }
 .dados strong{
     color: #9a9f9f;
