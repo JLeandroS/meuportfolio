@@ -43,6 +43,13 @@
         background: repeating-linear-gradient(45deg, #00000000, #43434300 100%);
             backdrop-filter: blur(0px);
     }
+    .content_img_dash{
+        width: 61%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
     .my-material-s {
       font-family: "Goldman", sans-serif;
         font-size: 18px;
@@ -67,6 +74,11 @@
         "CRSV" 0.5,
         "ELSH" 0,
         "ELXP" 0;
+    }
+    @media (max-width: 800px){
+        .content_img_dash{
+            width: 99%;
+        }
     }
 </style>
 <body>
@@ -234,7 +246,7 @@
                 </div>
             </div>
             <p id="data_gup" style="color: aquamarine;width: 75%;animation: move_text 0.4s;">Como colaborador efetivo na GUP Educação Inteligente, minha <strong>responsabilidade</strong> inicial era a análise e <strong>otimização</strong> da área <strong>comercial</strong>, focando na gestão de <strong>CRM</strong> e <strong>leads</strong>. Durante este processo, diagnostiquei uma oportunidade de <strong>melhoria crítica</strong>: o controle financeiro era realizado manualmente, devido às limitações do sistema vigente.<br><br>Para solucionar essa deficiência, tomei a <strong>iniciativa</strong> de projetar e desenvolver um sistema completo que integra e centraliza as informações das áreas financeira, comercial e pedagógica, proporcionando uma visão de negócio mais <strong>estratégica e eficiente</strong>.</p>
-            <div style="width:100%;height:auto;display: flex;justify-content: center;position:relative;">
+            <div class="content_img_dash">
                 <img src="img/dashboard.png" alt="dashboard" style="width: 99%;border-radius: 9px;">
                 <div class="protect_img"></div>
             </div>
