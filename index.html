@@ -35,11 +35,13 @@
         width: 99%;
         border-radius: 9px;
         position: absolute;
-        background: repeating-linear-gradient(140deg, #000000, #434343b8 100%);
+        background: radial-gradient(transparent, #00000082, black);
         transition:all 0.3s ease-in-out;
+            backdrop-filter: blur(5px);
     }
     .protect_img:hover{
         background: repeating-linear-gradient(45deg, #00000000, #43434300 100%);
+            backdrop-filter: blur(1px);
     }
     .my-material-s {
       font-family: "Goldman", sans-serif;
