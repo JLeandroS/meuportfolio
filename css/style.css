@@ -28,7 +28,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     z-index: 100;
-    background: #1e1e1ebf;
+    background: #1e1e1ee3;
     transition: all 0.5s ease-in-out;
 }
 .top.no-topo {
