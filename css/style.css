@@ -85,11 +85,11 @@ a{
     align-items: center;
 }
 #btn_menu{
-    padding: 1vh;
+    padding: 9px;
     color: white; 
     font-size: 34px;
     display: none;
-    margin: 1vh;
+    margin: 9px;
 }
 #btn_menu:hover{
     background: cadetblue;
@@ -97,10 +97,10 @@ a{
     cursor:pointer;
 }
 #btn_menu_close{
-    padding: 1vh;
+    padding: 9px;
     color: white; 
     font-size: 34px;
-    margin: 1vh;
+    margin: 9px;
 }
 #btn_menu_close:hover{
     background: cadetblue;
