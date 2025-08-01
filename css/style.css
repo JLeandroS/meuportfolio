@@ -28,6 +28,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     z-index: 100;
+    background: #1e1e1ebf;
 }
 .back {
     overflow: hidden;
