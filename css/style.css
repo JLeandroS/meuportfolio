@@ -337,7 +337,7 @@ a{
     margin: 4px;
     flex-direction: column;
     position: relative;
-    width: 100%;
+    width: calc(50% - 33px);
 }
 .map{
     border: 0;
