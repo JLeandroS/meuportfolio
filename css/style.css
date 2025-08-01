@@ -200,7 +200,6 @@ a{
     justify-content: center;
     align-items: center;
     transition: all 0.7s ease-in-out;
-    animation: move_text 2s;
 }
 .c_card:hover{
     cursor: pointer;
@@ -412,5 +411,6 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
