@@ -162,7 +162,6 @@ a{
     color: #9a9f9f;
 }
 .c_card{
-    backdrop-filter: blur(8px);
     transition: all 0.3s ease-in-out;
 }
 .card_in{
