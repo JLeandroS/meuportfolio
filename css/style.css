@@ -30,6 +30,7 @@ body{
     z-index: 100;
     background: #1e1e1ee3;
     transition: all 0.5s ease-in-out;
+    height: 70px;
 }
 .top.no-topo {
   background-color: transparent; /* Fundo transparente */
