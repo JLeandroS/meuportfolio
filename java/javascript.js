@@ -66,7 +66,7 @@ window.dispatchEvent(new Event('scroll'));
 
 
 const textDynamic = document.getElementById('text_dynamic');
-const textoOriginal = elementoTexto.dataset.text; // Pega o texto do atributo "data-text"
+const textoOriginal = textDynamic.dataset.text; // Pega o texto do atributo "data-text"
 
 // 2. Define os caracteres que serão usados na animação de "embaralhar"
 const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%*<>/\\()[]{}?_';
@@ -101,3 +101,4 @@ intervalo = setInterval(() => {
     iteracao += 1 / 3; 
 
 }, 30);
+
