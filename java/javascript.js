@@ -47,3 +47,19 @@ function hide_data(){
     btn_fisio.style.display = 'none';
     btn_optimize.style.display = 'none';
 }
+window.addEventListener('scroll', function() {
+  // Seleciona a div com a classe "top"
+  var topDiv = document.querySelector('.top');
+
+  // Verifica se a posição do scroll vertical é maior que 0
+  if (window.scrollY > 0) {
+    // Se não estiver no topo, remove a classe 'no-topo'
+    topDiv.classList.remove('no-topo');
+  } else {
+    // Se estiver no topo, adiciona a classe 'no-topo'
+    topDiv.classList.add('no-topo');
+  }
+});
+
+// Para garantir que o estilo correto seja aplicado ao carregar a página
+window.dispatchEvent(new Event('scroll'));
