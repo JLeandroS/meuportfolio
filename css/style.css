@@ -84,7 +84,6 @@ a{
     border-radius: 20px;
     font-weight: bold;
     transition: all 1s ease-in-out;
-    width: 12vw;
     display: flex;
     align-items: center;
 }
@@ -412,3 +411,4 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
