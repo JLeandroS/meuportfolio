@@ -19,7 +19,7 @@ body{
     margin: 5px;
 }
 .top{
-    position: absolute;
+    position: fixed;
     display: flex;
     width:100%;
     align-items: center;
@@ -27,7 +27,7 @@ body{
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: space-around;
-    z-index: 2;
+    z-index: 100;
 }
 .back {
     overflow: hidden;
