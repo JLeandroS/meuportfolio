@@ -30,6 +30,9 @@ body{
     z-index: 100;
     background: #1e1e1ebf;
 }
+.top.no-topo {
+  background-color: transparent; /* Fundo transparente */
+}
 .back {
     overflow: hidden;
 }
