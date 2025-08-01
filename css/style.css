@@ -308,7 +308,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 24px;
+    margin: 3vh;
 }
 #Contrate-me .material-symbols-outlined{
     font-size: 27px;
@@ -337,7 +337,7 @@ a{
     margin: 4px;
     flex-direction: column;
     position: relative;
-    width: calc(50% - 33px);
+    width: calc(50% - 46px);
 }
 .map{
     border: 0;
