@@ -63,3 +63,41 @@ window.addEventListener('scroll', function() {
 
 // Para garantir que o estilo correto seja aplicado ao carregar a página
 window.dispatchEvent(new Event('scroll'));
+
+
+const textDynamic = document.getElementById('text_dynamic');
+const textoOriginal = elementoTexto.dataset.text; // Pega o texto do atributo "data-text"
+
+// 2. Define os caracteres que serão usados na animação de "embaralhar"
+const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%*<>/\\()[]{}?_';
+
+let iteracao = 0;
+
+// Limpa o intervalo anterior se houver um, para evitar múltiplas animações
+let intervalo = null;
+
+// 3. Inicia a animação
+intervalo = setInterval(() => {
+    textDynamic.innerText = textoOriginal
+        .split('') // Divide a palavra em um array de letras: ['O','L','Á',...]
+        .map((letra, index) => {
+            // Se o índice da letra já foi "alcançado" pela iteração, mostre a letra original
+            if (index < iteracao) {
+                return textoOriginal[index];
+            }
+            
+            // Caso contrário, mostre um caractere aleatório
+            return caracteres[Math.floor(Math.random() * caracteres.length)];
+        })
+        .join(''); // Junta o array de volta em uma string
+
+    // 4. Verifica se a animação terminou
+    if (iteracao >= textoOriginal.length) {
+        clearInterval(intervalo); // Para o setInterval
+    }
+
+    // Aumenta a iteração a cada passo da animação
+    // O valor '1 / 3' controla a velocidade. Quanto menor, mais rápido.
+    iteracao += 1 / 3; 
+
+}, 30);
