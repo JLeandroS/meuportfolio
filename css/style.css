@@ -175,7 +175,6 @@ a{
 }
 #icon{
     font-size: 5vh;
-    width: 100%;
     color: #855b5b;
     text-align: end;
 }
@@ -445,6 +444,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
