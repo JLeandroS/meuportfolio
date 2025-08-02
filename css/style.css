@@ -341,10 +341,10 @@ a{
     margin: 3vh;
 }
 #Contrate-me .material-symbols-outlined{
-    font-size: 27px;
-    padding: 14px;
+font-size: 21px;
+    padding: 10px;
     border-radius: 50%;
-    background: #9f8a5f;
+    background: #515050;
     margin: 1vh;
     box-shadow: 9px 9px 20px 1px #000000c4;
     animation: move 1s;
@@ -352,7 +352,7 @@ a{
     transition: all 0.5s ease-in-out;
     width: fit-content;
     position: absolute;
-    top: -31px;
+    top: 2px;
     right: 0;
 }
 .ccc{
@@ -444,6 +444,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
