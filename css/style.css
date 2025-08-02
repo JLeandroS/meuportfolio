@@ -161,7 +161,7 @@ a{
 }
 
 .btn_top:hover,
-.tn_top.hover-ativo{
+.btn_top.hover-ativo{
     color:#616161;
     cursor: pointer;
     background: rgb(255, 255, 255);
@@ -445,6 +445,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
