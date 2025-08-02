@@ -88,7 +88,7 @@ window.addEventListener('scroll', function() {
   }else{
         btn_sobre.classList.remove('hover-ativo');
     }
-  if (window.scrollY > 5461) {
+  if (window.scrollY > 5161) {
       removeStyle();
       btn_contact.classList.add('hover-ativo');
   }else{
@@ -147,6 +147,7 @@ intervalo = setInterval(() => {
 window.addEventListener('scroll', function() {
   console.log(Math.round(window.scrollY));
 });
+
 
 
 
