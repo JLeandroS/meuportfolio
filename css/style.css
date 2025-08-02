@@ -19,9 +19,7 @@ body{
     color: #40cb40;
     font-size: 17px;
 }
-.statusJob p{
-    border:none;
-}
+
 .imgTop {
     width: 20vh;
     min-width: 20vh;
@@ -66,6 +64,9 @@ body{
     border: 2px solid;
     padding: 1px 13px;
     border-radius: 20px;
+}
+.statusJob p{
+    border:none;
 }
 .content_img_empresa:hover{
     color: chartreuse;
@@ -432,6 +433,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
