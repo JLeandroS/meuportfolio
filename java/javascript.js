@@ -82,11 +82,21 @@ function removeStyle() {
     });
 }
 
+// Tente com um valor bem baixo, como 0.1 (10%) ou até menor.
 const observerOptions = {
-    root: null, // null significa que a referência é o viewport (a tela do navegador)
+    root: null,
     rootMargin: '0px',
-    threshold: 0.4 
+    threshold: 0.1 // ANTES: Provavelmente 0.4 ou 0.5. DEPOIS: 0.1 ou 0.05
 };
+
+// Se quiser que dispare assim que 1 pixel entrar na tela, você pode até usar 0.
+// const observerOptions = {
+//     root: null,
+//     rootMargin: '0px',
+//     threshold: 0
+// };
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
 
 const observerCallback = (entries, observer) => {
     entries.forEach(entry => {
@@ -161,6 +171,7 @@ intervalo = setInterval(() => {
 // window.addEventListener('scroll', function() {
 //   console.log(Math.round(window.scrollY));
 // });
+
 
 
 
