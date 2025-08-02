@@ -75,7 +75,7 @@ const textDynamic = document.getElementById('text_dynamic');
 const textoOriginal = textDynamic.dataset.text; // Pega o texto do atributo "data-text"
 
 // 2. Define os caracteres que serão usados na animação de "embaralhar"
-const caracteres = '123456789';
+const caracteres = '01';
 
 let iteracao = 0;
 
@@ -104,9 +104,10 @@ intervalo = setInterval(() => {
 
     // Aumenta a iteração a cada passo da animação
     // O valor '1 / 3' controla a velocidade. Quanto menor, mais rápido.
-    iteracao += 10; 
+    iteracao += 100; 
 
 }, 30);
+
 
 
 
