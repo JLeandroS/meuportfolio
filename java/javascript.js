@@ -96,8 +96,6 @@ const observerOptions = {
 //     threshold: 0
 // };
 
-const observer = new IntersectionObserver(observerCallback, observerOptions);
-
 const observerCallback = (entries, observer) => {
     entries.forEach(entry => {
         // 'entry.isIntersecting' é true se a seção está na tela (conforme o threshold)
@@ -171,6 +169,7 @@ intervalo = setInterval(() => {
 // window.addEventListener('scroll', function() {
 //   console.log(Math.round(window.scrollY));
 // });
+
 
 
 
