@@ -70,7 +70,7 @@ window.addEventListener('scroll', function() {
     // Se estiver no topo, adiciona a classe 'no-topo'
     topDiv.classList.add('no-topo');
   }
-  if (window.scrollY > 0) {
+  if (window.scrollY >= 0) {
       removeStyle();
       btn_home.classList.add('hover-ativo');
   }else{
@@ -144,9 +144,10 @@ intervalo = setInterval(() => {
 
 }, 100);
 
-// window.addEventListener('scroll', function() {
-//   console.log(Math.round(window.scrollY));
-// });
+window.addEventListener('scroll', function() {
+  console.log(Math.round(window.scrollY));
+});
+
 
 
 
