@@ -64,6 +64,7 @@ body{
     height: 45vh;
     justify-content: center;
     justify-content: space-around;
+    background: #0a0a095c;
 }
 .content_img_empresa p{
     font-family: Bitcount Prop Single, system-ui;
@@ -443,6 +444,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
