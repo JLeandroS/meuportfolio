@@ -76,13 +76,13 @@ window.addEventListener('scroll', function() {
   }else{
         btn_home.classList.remove('hover-ativo');
     }
-  if (window.scrollY > 952) {
+  if (window.scrollY > 600) {
       removeStyle();
       btn_habilt.classList.add('hover-ativo');
   }else{
         btn_habilt.classList.remove('hover-ativo');
     }
-  if (window.scrollY > 2480) {
+  if (window.scrollY > 2100) {
       removeStyle();
       btn_sobre.classList.add('hover-ativo');
   }else{
@@ -147,6 +147,7 @@ intervalo = setInterval(() => {
 window.addEventListener('scroll', function() {
   console.log(Math.round(window.scrollY));
 });
+
 
 
 
