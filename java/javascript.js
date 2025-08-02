@@ -70,38 +70,52 @@ window.addEventListener('scroll', function() {
     // Se estiver no topo, adiciona a classe 'no-topo'
     topDiv.classList.add('no-topo');
   }
-  if (window.scrollY >= 0) {
-      removeStyle();
-      btn_home.classList.add('hover-ativo');
-  }else{
-        btn_home.classList.remove('hover-ativo');
-    }
-  if (window.scrollY > 600) {
-      removeStyle();
-      btn_habilt.classList.add('hover-ativo');
-  }else{
-        btn_habilt.classList.remove('hover-ativo');
-    }
-  if (window.scrollY > 2100) {
-      removeStyle();
-      btn_sobre.classList.add('hover-ativo');
-  }else{
-        btn_sobre.classList.remove('hover-ativo');
-    }
-  if (window.scrollY > 5161) {
-      removeStyle();
-      btn_contact.classList.add('hover-ativo');
-  }else{
-        btn_contact.classList.remove('hover-ativo');
-    }
 });
 
-function removeStyle(){
-    btn_home.classList.remove('hover-ativo');
-    btn_habilt.classList.remove('hover-ativo');
-    btn_sobre.classList.remove('hover-ativo');
-    btn_contact.classList.remove('hover-ativo');
+const sections = document.querySelectorAll('section');
+const navButtons = document.querySelectorAll('nav button');
+
+// Sua função para remover o estilo de todos os botões
+function removeStyle() {
+    navButtons.forEach(btn => {
+        btn.classList.remove('hover-ativo');
+    });
 }
+
+const observerOptions = {
+    root: null, // null significa que a referência é o viewport (a tela do navegador)
+    rootMargin: '0px',
+    threshold: 0.4 
+};
+
+const observerCallback = (entries, observer) => {
+    entries.forEach(entry => {
+        // 'entry.isIntersecting' é true se a seção está na tela (conforme o threshold)
+        if (entry.isIntersecting) {
+            // Limpa o estilo de todos os botões
+            removeStyle();
+
+            // Pega o ID da seção que está visível (ex: "habilidades")
+            const sectionId = entry.target.id;
+
+            // Encontra o botão correspondente usando o atributo data-target
+            const correspondingButton = document.querySelector(`button[data-target="${sectionId}"]`);
+            
+            // Adiciona a classe ativa ao botão correto
+            if (correspondingButton) {
+                correspondingButton.classList.add('hover-ativo');
+            }
+        }
+    });
+};
+
+// Cria o observer
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+// Manda o observer "observar" cada uma das suas seções
+sections.forEach(section => {
+    observer.observe(section);
+});
 
 // Para garantir que o estilo correto seja aplicado ao carregar a página
 window.dispatchEvent(new Event('scroll'));
@@ -147,6 +161,7 @@ intervalo = setInterval(() => {
 // window.addEventListener('scroll', function() {
 //   console.log(Math.round(window.scrollY));
 // });
+
 
 
 
