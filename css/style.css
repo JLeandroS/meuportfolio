@@ -431,9 +431,10 @@ font-size: 21px;
         width: 48vw;
         margin-bottom: 1vh;
     }
-    .content_empresas ::-webkit-scrollbar{
+    .content_empresas::-webkit-scrollbar {
         width: 0px;
         height: 0px;
+        background: transparent; /* Adicionado para garantir a ocultação em alguns casos */
     }
 
 }
@@ -448,6 +449,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
