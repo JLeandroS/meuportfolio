@@ -104,9 +104,10 @@ intervalo = setInterval(() => {
 
     // Aumenta a iteração a cada passo da animação
     // O valor '1 / 3' controla a velocidade. Quanto menor, mais rápido.
-    iteracao += 4 / 8; 
+    iteracao += 10; 
 
 }, 30);
+
 
 
 
