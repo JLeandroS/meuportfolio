@@ -77,12 +77,12 @@
         <div class="port" style="font-family: Goldman, sans-serif;font-size:x-large;">
             <strong style="color:white;">Port</strong><strong style="color:rgb(122 122 122);">fólio</strong>
         </div>
-            <div class="menu">
-            <a href="#inicio"><button id="btn_home" class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">home</span> Inicio</button></a>
-            <a href="#habilidades"><button id="btn_habilt"  class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">school</span> Habilidades</button></a>
-            <a href="#sobre"><button id="btn_sobre"  class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">info</span> Sobre</button></a>
-            <a href="#Contrate-me"><button id="btn_contact"  class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">support_agent</span> Contato</button></a>
-        </div>
+            <nav class="menu">
+            <a href="#inicio"><button id="btn_home" data-target="home" class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">home</span> Inicio</button></a>
+            <a href="#habilidades"><button id="btn_habilt" data-target="habilidades"  class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">school</span> Habilidades</button></a>
+            <a href="#sobre"><button id="btn_sobre" data-target="sobre" class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">info</span> Sobre</button></a>
+            <a href="#Contrate-me"><button id="btn_contact" data-target="contato" class="btn_top"><span style="font-size: large;margin-right: 10px;" class="material-symbols-outlined">support_agent</span> Contato</button></a>
+        </nav>
         <div class="menu_modal" id="menu_modal" style="transform: translateX(100%);position:fixed;top:67px;">
             <a href="#inicio"><button class="btn_top"><span style="margin-right: 10px;" class="material-symbols-outlined">home</span> Inicio</button></a>
             <a href="#habilidades"><button class="btn_top"><span style="margin-right: 10px;" class="material-symbols-outlined">school</span> Habilidades</button></a>
@@ -122,6 +122,7 @@
     background-repeat: no-repeat;
     background-position-x: center;">
             </div>
+            <section id="home"
             <div class="info" id="inicio">
                 <a href="#habilidades"><div class="c_card">
                     <div class="contente_info">
@@ -135,6 +136,8 @@
                 </div></a>
             </div>
         </div>
+        </section>
+        <section id="habilidades"
         <div class="info" id="habilidades" style="height: auto;position: relative;z-index: 2;">
             <strong style="color: aliceblue;font-size: 3vh;margin-top: 70px;font-family: Goldman, sans-serif;font-weight: 200;">Habilidades</strong>
             <strong class="tema">WEB</strong>
@@ -181,6 +184,8 @@
                 </div>
             </div>
         </div>
+        </section>
+        <section id="sobre"
         <div class="info" id="sobre" style="height: auto;position: relative;z-index: 2;color: aliceblue;">
             <strong style="color: aliceblue;font-size: 3vh;margin-top: 70px;margin-bottom: 3vh;font-family: Goldman, sans-serif;font-weight: 200;">Sobre mim e algumas empresas</strong>
             <div class="card_in" style="flex-direction: column;padding: 20px;">
@@ -292,6 +297,8 @@
                 </div>
             </div>
         </div>
+        </section>
+        <section id="contato"
         <div id="Contrate-me">
             <strong style="display: flex;color: aliceblue;font-size: 3vh;font-weight: 200;width: -webkit-fill-available;justify-content: center;margin-bottom: 70px;font-family: Goldman, sans-serif;">Contate-me</strong>
             <div class="ccc">
@@ -315,10 +322,12 @@
             </div>
             </div>
         </div>
+    </section>
     </div>
     <script src="java/javascript.js"></script>
 </body>
 </html>
+
 
 
 
