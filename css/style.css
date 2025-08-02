@@ -8,9 +8,9 @@ body{
     display:flex;
 }
 .imgTop {
-    width: 101px;
-    min-width: 101px;
-    height: 101px;
+    width: 20vh;
+    min-width: 20vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -411,6 +411,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
