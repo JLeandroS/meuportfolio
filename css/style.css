@@ -58,15 +58,18 @@ body{
     align-items: center;
     color: cadetblue;
     position: relative;
-    padding: 6vh;
     border: 2px solid #252525;
     border-radius: 5px;
+    width: 33vh;
+    height: 45vh;
+    justify-content: center;
 }
 .content_img_empresa p{
     font-family: Bitcount Prop Single, system-ui;
     border: 2px solid;
     padding: 1px 13px;
     border-radius: 20px;
+    margin: 1vh;
 }
 .statusJob p{
     border:none;
@@ -436,6 +439,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
