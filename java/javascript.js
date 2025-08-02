@@ -71,26 +71,37 @@ window.addEventListener('scroll', function() {
     topDiv.classList.add('no-topo');
   }
   if (window.scrollY > 0) {
+      removeStyle();
       btn_home.classList.add('hover-ativo');
   }else{
         btn_home.classList.remove('hover-ativo');
     }
   if (window.scrollY > 952) {
+      removeStyle();
       btn_habilt.classList.add('hover-ativo');
   }else{
         btn_habilt.classList.remove('hover-ativo');
     }
   if (window.scrollY > 2480) {
+      removeStyle();
       btn_sobre.classList.add('hover-ativo');
   }else{
         btn_sobre.classList.remove('hover-ativo');
     }
   if (window.scrollY > 5461) {
+      removeStyle();
       btn_contact.classList.add('hover-ativo');
   }else{
         btn_contact.classList.remove('hover-ativo');
     }
 });
+
+function removeStyle(){
+    btn_home.classList.remove('hover-ativo');
+    btn_habilt.classList.remove('hover-ativo');
+    tn_sobre.classList.remove('hover-ativo');
+    btn_contact.classList.remove('hover-ativo');
+}
 
 // Para garantir que o estilo correto seja aplicado ao carregar a página
 window.dispatchEvent(new Event('scroll'));
@@ -136,6 +147,7 @@ intervalo = setInterval(() => {
 window.addEventListener('scroll', function() {
   console.log(Math.round(window.scrollY));
 });
+
 
 
 
