@@ -7,6 +7,21 @@ body{
 .menu{
     display:flex;
 }
+.statusJob{
+    position: absolute;
+    top: -21px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: #252525;
+    padding: 5px;
+    padding-right: 12px;
+    color: #40cb40;
+    font-size: 17px;
+}
+.statusJob p{
+    border:none;
+}
 .imgTop {
     width: 20vh;
     min-width: 20vh;
@@ -417,6 +432,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
