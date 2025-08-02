@@ -99,7 +99,7 @@ window.addEventListener('scroll', function() {
 function removeStyle(){
     btn_home.classList.remove('hover-ativo');
     btn_habilt.classList.remove('hover-ativo');
-    tn_sobre.classList.remove('hover-ativo');
+    btn_sobre.classList.remove('hover-ativo');
     btn_contact.classList.remove('hover-ativo');
 }
 
@@ -144,9 +144,10 @@ intervalo = setInterval(() => {
 
 }, 100);
 
-window.addEventListener('scroll', function() {
-  console.log(Math.round(window.scrollY));
-});
+// window.addEventListener('scroll', function() {
+//   console.log(Math.round(window.scrollY));
+// });
+
 
 
 
