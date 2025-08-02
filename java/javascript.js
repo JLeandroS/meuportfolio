@@ -6,6 +6,7 @@ var btn_gup = document.getElementById('data_gup');
 var btn_fisio = document.getElementById('data_fisio');
 var btn_optimize = document.getElementById('data_optimize');
 var btn_logistica = document.getElementById('data_logistica');
+var btn_rc = document.getElementById('data_rc');
 
 $('#menu_modal').click( function(){
     btn_menu.style.display = "";
@@ -27,6 +28,10 @@ $('#btn-gup').click( function(){
     hide_data();
     btn_gup.style.display = '';
 })
+$('#btn-rc').click( function(){
+    hide_data();
+    btn_rc.style.display = '';
+})
 
 $('#btn-fisio').click( function(){
     hide_data();
@@ -46,6 +51,7 @@ function hide_data(){
     btn_logistica.style.display = 'none';
     btn_fisio.style.display = 'none';
     btn_optimize.style.display = 'none';
+    btn_rc.style.display = 'none';
 }
 window.addEventListener('scroll', function() {
   // Seleciona a div com a classe "top"
@@ -101,5 +107,6 @@ intervalo = setInterval(() => {
     iteracao += 2 / 3; 
 
 }, 30);
+
 
 
