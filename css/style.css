@@ -58,6 +58,9 @@ body{
     align-items: center;
     color: cadetblue;
     position: relative;
+    padding: 6vh;
+    border: 2px solid #252525;
+    border-radius: 5px;
 }
 .content_img_empresa p{
     font-family: Bitcount Prop Single, system-ui;
@@ -78,7 +81,7 @@ body{
     display: flex;
     overflow: auto;
     align-items: center;
-    height: 35vh;
+    height: 50vh;
     max-width: 100%;
     margin-top: 10%;
 }
@@ -433,6 +436,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
