@@ -81,6 +81,7 @@ body{
     scale: 1.02;
     cursor: pointer;
     border-color: #40cb40;
+    background: #0f23005c;
 }
 
 .content_empresas{
@@ -442,6 +443,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
