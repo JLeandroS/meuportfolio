@@ -63,6 +63,7 @@ body{
     width: 33vh;
     height: 45vh;
     justify-content: center;
+    justify-content: space-around;
 }
 .content_img_empresa p{
     font-family: Bitcount Prop Single, system-ui;
@@ -86,7 +87,7 @@ body{
     align-items: center;
     height: 56vh;
     max-width: 100%;
-    margin-top: 10%;
+    margin-top: 4%;
 }
 .port{
     font-size: xx-large;
@@ -439,6 +440,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
