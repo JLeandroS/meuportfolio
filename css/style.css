@@ -46,6 +46,12 @@ body{
     color: cadetblue;
     position: relative;
 }
+.content_img_empresa p{
+    font-family: Bitcount Prop Single, system-ui;
+    border: 2px solid;
+    padding: 1px 13px;
+    border-radius: 20px;
+}
 .content_img_empresa:hover{
     color: chartreuse;
     scale: 1.1;
@@ -411,6 +417,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
