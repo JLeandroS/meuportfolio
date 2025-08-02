@@ -8,6 +8,11 @@ var btn_optimize = document.getElementById('data_optimize');
 var btn_logistica = document.getElementById('data_logistica');
 var btn_rc = document.getElementById('data_rc');
 
+var btn_home = document.getElementById('btn_home');
+var btn_habilt = document.getElementById('btn_habilt');
+var btn_sobre = document.getElementById('btn_sobre');
+var btn_contact = document.getElementById('btn_contact');
+
 $('#menu_modal').click( function(){
     btn_menu.style.display = "";
     btn_menu_close.style.display = "none";
@@ -65,6 +70,26 @@ window.addEventListener('scroll', function() {
     // Se estiver no topo, adiciona a classe 'no-topo'
     topDiv.classList.add('no-topo');
   }
+  if (window.scrollY > 0) {
+      btn_home.classList.add('hover-ativo');
+  }else{
+        btn_home.classList.remove('hover-ativo');
+    }
+  if (window.scrollY > 952) {
+      btn_habilt.classList.add('hover-ativo');
+  }else{
+        btn_habilt.classList.remove('hover-ativo');
+    }
+  if (window.scrollY > 2480) {
+      btn_sobre.classList.add('hover-ativo');
+  }else{
+        btn_sobre.classList.remove('hover-ativo');
+    }
+  if (window.scrollY > 5461) {
+      btn_contact.classList.add('hover-ativo');
+  }else{
+        btn_contact.classList.remove('hover-ativo');
+    }
 });
 
 // Para garantir que o estilo correto seja aplicado ao carregar a página
@@ -111,6 +136,7 @@ intervalo = setInterval(() => {
 window.addEventListener('scroll', function() {
   console.log(Math.round(window.scrollY));
 });
+
 
 
 
