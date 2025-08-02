@@ -163,7 +163,7 @@ a{
     color:#616161;
     cursor: pointer;
     background: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 4px white;
+    box-shadow: 0 0 10px 4px #ffffff45;
 }
 .content{
     height: auto;
@@ -443,6 +443,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
