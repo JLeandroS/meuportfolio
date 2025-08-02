@@ -84,7 +84,7 @@ body{
     display: flex;
     overflow: auto;
     align-items: center;
-    height: 50vh;
+    height: 56vh;
     max-width: 100%;
     margin-top: 10%;
 }
@@ -439,6 +439,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
