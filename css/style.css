@@ -160,7 +160,8 @@ a{
   'opsz' 48
 }
 
-.btn_top:hover{
+.btn_top:hover,
+.tn_top.hover-ativo{
     color:#616161;
     cursor: pointer;
     background: rgb(255, 255, 255);
