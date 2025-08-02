@@ -108,6 +108,9 @@ intervalo = setInterval(() => {
 
 }, 100);
 
+window.addEventListener('scroll', function() {
+  console.log(Math.round(window.scrollY));
+});
 
 
 
