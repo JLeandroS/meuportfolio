@@ -76,9 +76,10 @@ body{
     border:none;
 }
 .content_img_empresa:hover{
-    color: chartreuse;
-    scale: 1.1;
-    cursor:pointer;
+    color: cornflowerblue;
+    scale: 1.02;
+    cursor: pointer;
+    border-color: #40cb40;
 }
 
 .content_empresas{
@@ -440,6 +441,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
