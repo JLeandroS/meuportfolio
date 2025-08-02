@@ -71,6 +71,7 @@ body{
     padding: 1px 13px;
     border-radius: 20px;
     margin: 1vh;
+    font-size: 1.7vh;
 }
 .statusJob p{
     border:none;
@@ -441,6 +442,7 @@ a{
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
