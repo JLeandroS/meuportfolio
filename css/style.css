@@ -44,6 +44,7 @@ body{
     background: #1e1e1ee3;
     transition: all 0.5s ease-in-out;
     height: 70px;
+    backdrop-filter: blur(5px);
 }
 .top.no-topo {
   background-color: transparent; /* Fundo transparente */
@@ -449,6 +450,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
