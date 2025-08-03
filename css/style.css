@@ -48,6 +48,7 @@ body{
 }
 .top.no-topo {
   background-color: transparent; /* Fundo transparente */
+    backdrop-filter: blur(0px);
 }
 .back {
     overflow: hidden;
@@ -450,6 +451,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
