@@ -19,7 +19,9 @@ body{
     color: #40cb40;
     font-size: 17px;
 }
-
+button{
+    font-family: 'Roboto', sans-serif;
+}
 .imgTop {
     width: 20vh;
     min-width: 20vh;
@@ -452,6 +454,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
