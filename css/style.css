@@ -341,6 +341,7 @@ a{
     justify-content: center;
     flex-wrap: wrap;
     margin: 3vh;
+    flex-direction: column;
 }
 #Contrate-me .material-symbols-outlined{
 font-size: 21px;
@@ -451,6 +452,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
