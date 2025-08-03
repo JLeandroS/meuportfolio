@@ -369,7 +369,7 @@ font-size: 21px;
     background-color: rgb(7 7 7 / 35%);
     box-shadow: 0px 0px 4px 0px #000000c4;
     align-items: center;
-    margin: 4px;
+    margin: 0.5vh;
     flex-direction: column;
     position: relative;
     width: calc(50% - 46px);
@@ -423,7 +423,7 @@ font-size: 21px;
     }
     .ccc{
         flex-wrap: wrap;
-        width: 100%;
+        width: calc(100% - 4vh);
         flex-direction: initial;
     }
     .menu{
@@ -454,6 +454,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
