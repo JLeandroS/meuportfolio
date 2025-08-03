@@ -81,7 +81,7 @@ button{
     border:none;
 }
 .content_img_empresa:hover{
-    color: cornflowerblue;
+    color: #27e726;
     scale: 1.02;
     cursor: pointer;
     border-color: #40cb40;
@@ -453,6 +453,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
