@@ -66,7 +66,6 @@ button{
     border-radius: 5px;
     width: 33vh;
     height: 45vh;
-    justify-content: center;
     justify-content: space-around;
     background: #0a0a095c;
 }
@@ -454,6 +453,7 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
 
 
