@@ -12,6 +12,7 @@ var btn_home = document.getElementById('btn_home');
 var btn_habilt = document.getElementById('btn_habilt');
 var btn_sobre = document.getElementById('btn_sobre');
 var btn_contact = document.getElementById('btn_contact');
+var bg_img = document.getElementById('bg_img');
 
 $('#menu_modal').click( function(){
     btn_menu.style.display = "";
@@ -72,6 +73,18 @@ window.addEventListener('scroll', function() {
   }
 });
 
+function changeBackground(newClass) {
+    // 1. Remove as classes de animação e de fundo anteriores
+    bg_img.classList.remove('animate-in', 'bg-home', 'bg-habilidades', 'bg-sobre');
+
+    // 2. Força o navegador a processar a remoção da classe (reflow)
+    // Isso é o "truque" para garantir que a animação possa recomeçar
+    void bg_img.offsetWidth; 
+
+    // 3. Adiciona a nova classe de fundo e a classe de animação
+    bg_img.classList.add(newClass, 'animate-in');
+}
+
 const sections = document.querySelectorAll('section');
 const navButtons = document.querySelectorAll('nav button');
 
@@ -112,6 +125,14 @@ const observerCallback = (entries, observer) => {
             // Adiciona a classe ativa ao botão correto
             if (correspondingButton) {
                 correspondingButton.classList.add('hover-ativo');
+
+                if (sectionId == 'home') {
+                    changeBackground('bg-home');
+                } else if (sectionId == 'habilidades') {
+                    changeBackground('bg-habilidades');
+                } else if (sectionId == 'sobre_section') {
+                    changeBackground('bg-sobre');
+                }
             }
         }
     });
@@ -169,25 +190,3 @@ intervalo = setInterval(() => {
 // window.addEventListener('scroll', function() {
 //   console.log(Math.round(window.scrollY));
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
