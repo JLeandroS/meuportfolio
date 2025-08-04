@@ -64,6 +64,22 @@
         "ELSH" 0,
         "ELXP" 0;
     }
+    .bg-home {
+        background-image: url('img/lv_0_20250722164950.jpg');
+    }
+
+    .bg-habilidades {
+        background-image: url('img/portfolio2.jpg');
+    }
+
+    .bg-sobre {
+        background-image: url('img/portfolio3.jpg');
+    }
+
+    /* Classe que aplica a animação */
+    .animate-in {
+        animation: showImg 2s forwards;
+    }
     @media (max-width: 800px){
         .content_img_dash{
             width: 99%;
@@ -109,18 +125,7 @@
         </div>
     <div class="content">
         <div class="back">
-            <div style="border-radius: 25% 0% 0% 25%;
-    width: 55vh;
-    height: calc(100vh);
-    background: url(img/lv_0_20250722164950.jpg);
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    z-index: 0;
-    background-size: cover;
-    opacity: 0.2;
-    background-repeat: no-repeat;
-    background-position-x: center;">
+            <div id="bg_img" class="bg_img">
             </div>
             <section id="home">
             <div class="info" id="inicio">
@@ -337,56 +342,3 @@
     <script src="java/javascript.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
