@@ -13,10 +13,10 @@ body{
     display: flex;
     align-items: center;
     border-radius: 20px;
-    background: #252525;
+    background: #565bff;
     padding: 5px;
     padding-right: 12px;
-    color: #40cb40;
+    color: #ffffff;
     font-size: 17px;
 }
 button{
@@ -476,4 +476,5 @@ font-size: 21px;
     background-color: #477f47;
     border-radius: 8px;
 }
+
 
